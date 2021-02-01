@@ -1,3 +1,16 @@
-.cover:hover .cover__overlay {
-    opacity: 0.3;
+.cover__overlay:hover { 
+    /*opacity: 0.8;*/
+    background-color: rgba(42, 44, 47, 0.8);
 }
+
+.cover__overlay {
+    /*background: #2A2C2F;
+    opacity: 0.3;*/
+    background-color: rgba(42, 44, 47, 0.3);
+}
+
+
+
+/*.cover:hover .cover__overlay {
+    opacity: 0.3;
+}*/

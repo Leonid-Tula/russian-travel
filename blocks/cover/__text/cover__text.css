@@ -1,14 +1,18 @@
 .cover__text {
-    position: absolute;
+    /*position: absolute;*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 0;
+    text-decoration: none;
+    /*top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: 20.69% auto auto; 
+    margin: 20.69% auto auto;*/
+    padding: calc(245/1280*100%) 0 calc(343/1280*100%);
 }
+
+
 
 @media screen and (max-width: 1279px) {
     .cover__text {

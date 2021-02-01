@@ -1,5 +1,6 @@
 .cover__background {
     width: 100%;
-    background: #2A2C2F;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: 100% 100%;
 }
