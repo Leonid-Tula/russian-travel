@@ -1,0 +1,19 @@
+.place__paragraphs {
+    margin: 0;
+    max-width: 484px;
+    padding: 48px 0 0 5px;
+} 
+
+@media screen and (max-width: 1279px) {
+    .place__paragraphs {
+        max-width: calc(50% - 8px);
+        padding: 48px 0 0 8px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraphs {
+        max-width: 100%;
+        padding: 32px 16px 0 16px;
+    }
+}

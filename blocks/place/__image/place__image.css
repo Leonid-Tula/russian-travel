@@ -1,0 +1,29 @@
+.place__image {
+    width: 100%;
+    max-width: 460px;
+    height: outher;
+    padding: 48px 35px 0 0 ;
+    object-fit: scale-down;
+    object-position: top;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__image {
+        max-width: calc(50% - 24px);
+        padding: 48px 24px 0 0 ;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        padding: 48px 20px 0 0;
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        padding: 32px 0 0;
+        max-width: 100%;
+    }
+}

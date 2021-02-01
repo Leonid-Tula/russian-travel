@@ -1,0 +1,28 @@
+.cover {
+    max-width: calc(100% - 96px);
+    margin: 92px 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 100%;
+        margin: 92px 0 0;
+
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        margin: 90px 0 0 ;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin: 66px 0 0;
+    }
+}
