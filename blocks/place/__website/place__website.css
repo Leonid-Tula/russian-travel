@@ -1,7 +1,7 @@
 .place__website {
     padding-left: 5px;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: flex-end;
 }
 
