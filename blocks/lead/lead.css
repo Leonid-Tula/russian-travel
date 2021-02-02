@@ -13,12 +13,12 @@
 
 @media screen and (max-width: 1023px) {
     .lead { 
-        padding: 48px 24px 0;
+        padding: 48px 0px 0;
     }
  }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
      .lead {
          padding: 48px 0 0;
      }
- }
+ }*/
