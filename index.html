@@ -11,8 +11,8 @@
   <div class="page">
     <header class="header">
         <a href="#" target="_self"><img src="images/header-logo.svg" class="header__logo" alt="Россия"></a>
-        <div class="header-links">
-            <a href="#" target="_self" class="header__lang-link">Ru</a> 
+        <div class="header__links">
+            <a href="#" target="_self" class="header__lang-link header__lang-link_activated">Ru</a> 
             <a href="#" target="_self" class="header__lang-link">En</a> 
         </div>
     </header>  
@@ -25,8 +25,9 @@
           <!--<div class="lead__images">
             <img src="./images/lead-polka.jpg" class="lead__image" alt="Плацкартный вагон"> 
           -->
-            <img src="./images/the-way.svg" class="lead__image" alt="Путешествие Псков- Улан-Удэ">
+            <!--<img src="./images/the-way.svg" class="lead__image" alt="Путешествие Псков- Улан-Удэ">-->
           <!--</div>-->
+          <img src="./images/the-way.jpg" class="lead__image" alt="Путешествие Псков- Улан-Удэ">
           <p class="lead__caption">Ваша полка - верхняя</p>
         </section>
 
@@ -34,11 +35,11 @@
             <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
-                <li>Часовых поясов 11</li>
-                <li>Объектов природного наследия ЮНЕСКО 12</li>
-                <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                <li>Природных заповедников 105</li>
-                <li>Аэропортов 241</li>
+                <li>Часовых поясов <span class="intro__span-accent">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+                <li>Природных заповедников <span class="intro__span-accent">105</span></li>
+                <li>Аэропортов <span class="intro__span-accent">241</span></li>
             </ul>
         </section>
 
@@ -59,9 +60,9 @@
 
         <section class="places">
           <div class="place">
-            <h3 class="place__title">Куршская коса</h3>
+            <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <p class="place__ulr-heading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a href="http://park-kosa.ru" class="place__link" target="_blank" rel="noopener">park-kosa.ru</a>
             </div>
             <img src="./images/place-kosa.jpg" class="place__image" alt="Куршская коса">
@@ -71,9 +72,9 @@
             </div>  
           </div>
           <div class="place">
-            <h3 class="place__title">Кольский</h3>
+            <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <p class="place__ulr-heading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank" rel="noopener">National Geographic</a>
             </div>
             <img src="./images/place-kolsky.jpg" class="place__image" alt="Кольский полуостров">
@@ -83,9 +84,9 @@
             </div>  
           </div>
           <div class="place">
-            <h3 class="place__title">Алтай</h3>
+            <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <p class="place__ulr-heading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" target="_blank" rel="noopener">Facebook</a>
             </div>
             <img src="./images/place-altai.jpg" class="place__image" alt="Алтай">
@@ -95,9 +96,9 @@
             </div>  
           </div>
           <div class="place">
-            <h3 class="place__title">Зимний Байкал</h3>
+            <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <p class="place__ulr-heading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a href="https://vk.com/baikalmile" class="place__link" target="_blank" rel="noopener">https://vk.com/baikalmile</a>
             </div>
             <img src="./images/place-winter-baikal.jpg" class="place__image" alt="Зимний Байкал">
@@ -107,9 +108,9 @@
             </div>  
           </div>
           <div class="place">
-            <h3 class="place__title">Карелия</h3>
+            <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <p class="place__ulr-heading">URL</p>
+              <p class="place__url-heading">URL</p>
               <a href="http://vodlozero.ru" class="place__link" target="_blank" rel="noopener">http://vodlozero.ru/</a>
             </div>
             <img src="./images/place-karelia.jpg" class="place__image" alt="Карелия">
@@ -120,9 +121,9 @@
           </div>
         </section>
 
-      <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener">
-          <img src="images/cover-trains.jpg" class="cover__background cover__overlay" alt="Вокзал">
+      <section class="cover cover__background">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link cover__overlay" target="_blank" rel="noopener">
+          <!--<img src="images/cover-trains.jpg" class="cover__background cover__overlay" alt="Вокзал">-->
           <div class="cover__text">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
@@ -133,13 +134,13 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__links">
+      <nav class="footer__links">
         <a href="https://yandex.ru/maps" class="footer__link" target="_blank" rel="noopener">Карты</a>
         <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank" rel="noopener">Погода</a>
         <a href="https://rasp.yandex.ru" class="footer__link" target="_blank" rel="noopener">Расписание</a>
         <a href="https://calendar.yandex.ru" class="footer__link" target="_blank" rel="noopener">Календарь</a>
         <a href="https://travel.yandex.ru" class="footer__link" target="_blank" rel="noopener">Путешествия</a>
-      </div>
+      </nav>
       <p class="footer__copyright">© 2021. Ральянов Леонид</p>
     </footer>
 
