@@ -1,5 +1,5 @@
 .cover__text {
-    margin: calc(245/1280*100%) auto;
+    margin: calc(245/1184*100%) auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,13 +38,13 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
     .cover__text{
         /*margin: calc(115/768*100%) 16px auto;*/
         /*max-width: calc(100% - 32px);*/
-        margin: calc(115/768*100%) auto;
+        /*margin: calc(115/768*100%) auto;
     }
-}
+}*/
 
 @media screen and (max-width: 374px) {
     .cover__text{
